@@ -16,9 +16,6 @@ def fromArr(A, num):
     return (max, initIndex)
 
 def solution(A, K, L):
-    # write your code in Python 3.6
-    pass
-
     if(K+L>len(A)):
             return -1
 
